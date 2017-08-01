@@ -1,0 +1,33 @@
+{
+  "name": "benchmark-uglify",
+  "version": "1.0.0",
+  "description": "Compare uglifying before/after concatenating",
+  "scripts": {
+    "benchmark": "benchmark.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamhooper/benchmark-uglify.git"
+  },
+  "keywords": [
+    "UglifyJS",
+    "Uglify",
+    "benchmark",
+    "javascript",
+    "Node",
+    "webpack"
+  ],
+  "author": "Adam Hooper <adam@adamhooper.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamhooper/benchmark-uglify/issues"
+  },
+  "homepage": "https://github.com/adamhooper/benchmark-uglify#readme",
+  "dependencies": {
+    "d3": "^4.10.0",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "uglify-loader": "^2.0.0",
+    "webpack": "^3.4.1"
+  }
+}
